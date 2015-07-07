@@ -4,7 +4,7 @@
 #include <QWidget>
 #include <QtSerialPort>
 #include <QTimer>
-#include "../../../../../../qcustomplot/qcustomplot.h"
+#include "qcustomplot/qcustomplot.h"
 
 #define MAXSUBPLOTS 3
 #define MAXLINES 3

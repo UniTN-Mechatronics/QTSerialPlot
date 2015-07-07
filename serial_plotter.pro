@@ -8,15 +8,12 @@ QT       += core gui widgets serialport printsupport
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
-TARGET = serial_plotter_1
+TARGET = SerialPlotter
 TEMPLATE = app
 
 
-SOURCES += main.cpp\
-        widget.cpp \
-    ../../../../../../qcustomplot/qcustomplot.cpp
+SOURCES += main.cpp widget.cpp qcustomplot/qcustomplot.cpp
 
-HEADERS  += widget.h \
-    ../../../../../../qcustomplot/qcustomplot.h
+HEADERS += widget.h qcustomplot/qcustomplot.h
 
-FORMS    += widget.ui
+FORMS   += widget.ui
