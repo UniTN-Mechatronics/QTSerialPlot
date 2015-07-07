@@ -1,0 +1,2155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Widget</class>
+ <widget class="QWidget" name="Widget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1004</width>
+    <height>723</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Widget</string>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout_2">
+   <item>
+    <layout class="QVBoxLayout" name="verticalLayout_2">
+     <item>
+      <widget class="QGroupBox" name="groupBox">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>270</width>
+         <height>230</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>270</width>
+         <height>230</height>
+        </size>
+       </property>
+       <property name="title">
+        <string>Serial Settings</string>
+       </property>
+       <widget class="QPushButton" name="Start_pushButton">
+        <property name="geometry">
+         <rect>
+          <x>12</x>
+          <y>196</y>
+          <width>75</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Start</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="Stop_pushButton">
+        <property name="geometry">
+         <rect>
+          <x>93</x>
+          <y>196</y>
+          <width>75</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Stop</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="Save_pushButton">
+        <property name="geometry">
+         <rect>
+          <x>174</x>
+          <y>196</y>
+          <width>75</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Save</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="Initchar_lineEdit">
+        <property name="geometry">
+         <rect>
+          <x>13</x>
+          <y>160</y>
+          <width>99</width>
+          <height>20</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLabel" name="Initchar_label">
+        <property name="geometry">
+         <rect>
+          <x>13</x>
+          <y>136</y>
+          <width>40</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Init char</string>
+        </property>
+       </widget>
+       <widget class="QComboBox" name="Serialavailable_comboBox">
+        <property name="geometry">
+         <rect>
+          <x>13</x>
+          <y>40</y>
+          <width>69</width>
+          <height>20</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLabel" name="Serialavailable_label">
+        <property name="geometry">
+         <rect>
+          <x>13</x>
+          <y>23</y>
+          <width>99</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Available serial ports</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="Serialbaud_label">
+        <property name="geometry">
+         <rect>
+          <x>13</x>
+          <y>70</y>
+          <width>53</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Serial baud</string>
+        </property>
+       </widget>
+       <widget class="QComboBox" name="Serialbaud_comboBox">
+        <property name="geometry">
+         <rect>
+          <x>13</x>
+          <y>90</y>
+          <width>69</width>
+          <height>20</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QTextBrowser" name="Serialinfo_textBrowser">
+        <property name="geometry">
+         <rect>
+          <x>120</x>
+          <y>42</y>
+          <width>138</width>
+          <height>91</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLabel" name="Serialinfo_label">
+        <property name="geometry">
+         <rect>
+          <x>120</x>
+          <y>23</y>
+          <width>47</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Serial info</string>
+        </property>
+       </widget>
+      </widget>
+     </item>
+     <item>
+      <widget class="QGroupBox" name="groupBox_2">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>270</width>
+         <height>150</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>270</width>
+         <height>16777215</height>
+        </size>
+       </property>
+       <property name="title">
+        <string>Plot Settings</string>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayout">
+        <property name="leftMargin">
+         <number>5</number>
+        </property>
+        <property name="rightMargin">
+         <number>5</number>
+        </property>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout">
+          <item>
+           <widget class="QLabel" name="Numbersubplots_label">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="text">
+             <string>Subplots:</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QSpinBox" name="Numbersubplots_spinBox">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>8</pointsize>
+              <weight>50</weight>
+              <bold>false</bold>
+              <underline>false</underline>
+              <strikeout>false</strikeout>
+              <stylestrategy>PreferAntialias</stylestrategy>
+             </font>
+            </property>
+            <property name="readOnly">
+             <bool>false</bool>
+            </property>
+            <property name="accelerated">
+             <bool>false</bool>
+            </property>
+            <property name="minimum">
+             <number>1</number>
+            </property>
+            <property name="maximum">
+             <number>5</number>
+            </property>
+            <property name="value">
+             <number>5</number>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <spacer name="horizontalSpacer">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>40</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <widget class="QScrollArea" name="scrollArea">
+          <property name="frameShape">
+           <enum>QFrame::NoFrame</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Plain</enum>
+          </property>
+          <property name="verticalScrollBarPolicy">
+           <enum>Qt::ScrollBarAsNeeded</enum>
+          </property>
+          <property name="widgetResizable">
+           <bool>true</bool>
+          </property>
+          <widget class="QWidget" name="scrollAreaWidgetContents">
+           <property name="geometry">
+            <rect>
+             <x>0</x>
+             <y>0</y>
+             <width>258</width>
+             <height>406</height>
+            </rect>
+           </property>
+           <layout class="QVBoxLayout" name="verticalLayout_6">
+            <property name="leftMargin">
+             <number>3</number>
+            </property>
+            <property name="topMargin">
+             <number>3</number>
+            </property>
+            <property name="rightMargin">
+             <number>3</number>
+            </property>
+            <property name="bottomMargin">
+             <number>3</number>
+            </property>
+            <item>
+             <widget class="QGroupBox" name="Subplot_groupBox_1">
+              <property name="minimumSize">
+               <size>
+                <width>250</width>
+                <height>80</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>250</width>
+                <height>16777215</height>
+               </size>
+              </property>
+              <property name="title">
+               <string>Subplot 1</string>
+              </property>
+              <layout class="QHBoxLayout" name="horizontalLayout_3">
+               <property name="leftMargin">
+                <number>0</number>
+               </property>
+               <property name="topMargin">
+                <number>0</number>
+               </property>
+               <property name="rightMargin">
+                <number>0</number>
+               </property>
+               <property name="bottomMargin">
+                <number>2</number>
+               </property>
+               <item>
+                <widget class="QSpinBox" name="numberlines_spinBox_1">
+                 <property name="styleSheet">
+                  <string notr="true">
+</string>
+                 </property>
+                 <property name="minimum">
+                  <number>1</number>
+                 </property>
+                 <property name="maximum">
+                  <number>3</number>
+                 </property>
+                 <property name="value">
+                  <number>3</number>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QScrollArea" name="lines_scrollArea_1">
+                 <property name="minimumSize">
+                  <size>
+                   <width>200</width>
+                   <height>60</height>
+                  </size>
+                 </property>
+                 <property name="maximumSize">
+                  <size>
+                   <width>200</width>
+                   <height>16777215</height>
+                  </size>
+                 </property>
+                 <property name="frameShadow">
+                  <enum>QFrame::Raised</enum>
+                 </property>
+                 <property name="verticalScrollBarPolicy">
+                  <enum>Qt::ScrollBarAsNeeded</enum>
+                 </property>
+                 <property name="horizontalScrollBarPolicy">
+                  <enum>Qt::ScrollBarAlwaysOff</enum>
+                 </property>
+                 <property name="widgetResizable">
+                  <bool>true</bool>
+                 </property>
+                 <widget class="QWidget" name="lines_scrollAreaWidgetContents_1">
+                  <property name="geometry">
+                   <rect>
+                    <x>0</x>
+                    <y>-97</y>
+                    <width>181</width>
+                    <height>158</height>
+                   </rect>
+                  </property>
+                  <layout class="QVBoxLayout" name="verticalLayout_3">
+                   <property name="spacing">
+                    <number>4</number>
+                   </property>
+                   <property name="leftMargin">
+                    <number>0</number>
+                   </property>
+                   <property name="topMargin">
+                    <number>0</number>
+                   </property>
+                   <property name="rightMargin">
+                    <number>0</number>
+                   </property>
+                   <property name="bottomMargin">
+                    <number>0</number>
+                   </property>
+                   <item>
+                    <widget class="QGroupBox" name="line_groupBox_1_1">
+                     <property name="sizePolicy">
+                      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                       <horstretch>0</horstretch>
+                       <verstretch>0</verstretch>
+                      </sizepolicy>
+                     </property>
+                     <property name="minimumSize">
+                      <size>
+                       <width>180</width>
+                       <height>50</height>
+                      </size>
+                     </property>
+                     <property name="maximumSize">
+                      <size>
+                       <width>180</width>
+                       <height>50</height>
+                      </size>
+                     </property>
+                     <property name="title">
+                      <string>Line 1</string>
+                     </property>
+                     <layout class="QGridLayout" name="gridLayout">
+                      <property name="leftMargin">
+                       <number>2</number>
+                      </property>
+                      <property name="topMargin">
+                       <number>0</number>
+                      </property>
+                      <property name="rightMargin">
+                       <number>2</number>
+                      </property>
+                      <property name="bottomMargin">
+                       <number>2</number>
+                      </property>
+                      <property name="verticalSpacing">
+                       <number>2</number>
+                      </property>
+                      <item row="1" column="2">
+                       <widget class="QComboBox" name="color_comboBox_1_1">
+                        <property name="palette">
+                         <palette>
+                          <active>
+                           <colorrole role="HighlightedText">
+                            <brush brushstyle="SolidPattern">
+                             <color alpha="255">
+                              <red>0</red>
+                              <green>0</green>
+                              <blue>0</blue>
+                             </color>
+                            </brush>
+                           </colorrole>
+                          </active>
+                          <inactive>
+                           <colorrole role="HighlightedText">
+                            <brush brushstyle="SolidPattern">
+                             <color alpha="255">
+                              <red>0</red>
+                              <green>0</green>
+                              <blue>0</blue>
+                             </color>
+                            </brush>
+                           </colorrole>
+                          </inactive>
+                          <disabled>
+                           <colorrole role="HighlightedText">
+                            <brush brushstyle="SolidPattern">
+                             <color alpha="255">
+                              <red>0</red>
+                              <green>0</green>
+                              <blue>0</blue>
+                             </color>
+                            </brush>
+                           </colorrole>
+                          </disabled>
+                         </palette>
+                        </property>
+                        <property name="font">
+                         <font>
+                          <pointsize>8</pointsize>
+                         </font>
+                        </property>
+                        <property name="styleSheet">
+                         <string notr="true"/>
+                        </property>
+                        <item>
+                         <property name="text">
+                          <string>blue</string>
+                         </property>
+                        </item>
+                        <item>
+                         <property name="text">
+                          <string>red</string>
+                         </property>
+                        </item>
+                        <item>
+                         <property name="text">
+                          <string>black</string>
+                         </property>
+                        </item>
+                        <item>
+                         <property name="text">
+                          <string>green</string>
+                         </property>
+                        </item>
+                        <item>
+                         <property name="text">
+                          <string>orange</string>
+                         </property>
+                        </item>
+                        <item>
+                         <property name="text">
+                          <string>yellow</string>
+                         </property>
+                        </item>
+                       </widget>
+                      </item>
+                      <item row="1" column="1">
+                       <widget class="QSpinBox" name="y_spinBox_1_1">
+                        <property name="minimum">
+                         <number>1</number>
+                        </property>
+                        <property name="value">
+                         <number>2</number>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="1" column="0">
+                       <widget class="QSpinBox" name="x_spinBox_1_1">
+                        <property name="minimum">
+                         <number>1</number>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="0" column="1">
+                       <widget class="QLabel" name="y_label_1_1">
+                        <property name="text">
+                         <string>y</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="0" column="0">
+                       <widget class="QLabel" name="x_label_1_1">
+                        <property name="text">
+                         <string>x</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="0" column="2">
+                       <widget class="QLabel" name="color_label_1_1">
+                        <property name="text">
+                         <string>color</string>
+                        </property>
+                       </widget>
+                      </item>
+                     </layout>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QGroupBox" name="line_groupBox_1_2">
+                     <property name="sizePolicy">
+                      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                       <horstretch>0</horstretch>
+                       <verstretch>0</verstretch>
+                      </sizepolicy>
+                     </property>
+                     <property name="minimumSize">
+                      <size>
+                       <width>180</width>
+                       <height>50</height>
+                      </size>
+                     </property>
+                     <property name="maximumSize">
+                      <size>
+                       <width>180</width>
+                       <height>50</height>
+                      </size>
+                     </property>
+                     <property name="title">
+                      <string>Line 2</string>
+                     </property>
+                     <layout class="QGridLayout" name="gridLayout_2">
+                      <property name="leftMargin">
+                       <number>2</number>
+                      </property>
+                      <property name="topMargin">
+                       <number>0</number>
+                      </property>
+                      <property name="rightMargin">
+                       <number>2</number>
+                      </property>
+                      <property name="bottomMargin">
+                       <number>2</number>
+                      </property>
+                      <property name="verticalSpacing">
+                       <number>2</number>
+                      </property>
+                      <item row="1" column="2">
+                       <widget class="QComboBox" name="color_comboBox_1_2">
+                        <property name="palette">
+                         <palette>
+                          <active>
+                           <colorrole role="HighlightedText">
+                            <brush brushstyle="SolidPattern">
+                             <color alpha="255">
+                              <red>0</red>
+                              <green>0</green>
+                              <blue>0</blue>
+                             </color>
+                            </brush>
+                           </colorrole>
+                          </active>
+                          <inactive>
+                           <colorrole role="HighlightedText">
+                            <brush brushstyle="SolidPattern">
+                             <color alpha="255">
+                              <red>0</red>
+                              <green>0</green>
+                              <blue>0</blue>
+                             </color>
+                            </brush>
+                           </colorrole>
+                          </inactive>
+                          <disabled>
+                           <colorrole role="HighlightedText">
+                            <brush brushstyle="SolidPattern">
+                             <color alpha="255">
+                              <red>0</red>
+                              <green>0</green>
+                              <blue>0</blue>
+                             </color>
+                            </brush>
+                           </colorrole>
+                          </disabled>
+                         </palette>
+                        </property>
+                        <property name="font">
+                         <font>
+                          <pointsize>8</pointsize>
+                         </font>
+                        </property>
+                        <property name="styleSheet">
+                         <string notr="true"/>
+                        </property>
+                        <item>
+                         <property name="text">
+                          <string>blue</string>
+                         </property>
+                        </item>
+                        <item>
+                         <property name="text">
+                          <string>red</string>
+                         </property>
+                        </item>
+                        <item>
+                         <property name="text">
+                          <string>black</string>
+                         </property>
+                        </item>
+                        <item>
+                         <property name="text">
+                          <string>green</string>
+                         </property>
+                        </item>
+                        <item>
+                         <property name="text">
+                          <string>orange</string>
+                         </property>
+                        </item>
+                        <item>
+                         <property name="text">
+                          <string>yellow</string>
+                         </property>
+                        </item>
+                       </widget>
+                      </item>
+                      <item row="1" column="1">
+                       <widget class="QSpinBox" name="y_spinBox_1_2">
+                        <property name="minimum">
+                         <number>1</number>
+                        </property>
+                        <property name="value">
+                         <number>2</number>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="1" column="0">
+                       <widget class="QSpinBox" name="x_spinBox_1_2">
+                        <property name="minimum">
+                         <number>1</number>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="0" column="1">
+                       <widget class="QLabel" name="y_label_1_2">
+                        <property name="text">
+                         <string>y</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="0" column="0">
+                       <widget class="QLabel" name="x_label_1_2">
+                        <property name="text">
+                         <string>x</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="0" column="2">
+                       <widget class="QLabel" name="color_label_1_2">
+                        <property name="text">
+                         <string>color</string>
+                        </property>
+                       </widget>
+                      </item>
+                     </layout>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QGroupBox" name="line_groupBox_1_3">
+                     <property name="sizePolicy">
+                      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                       <horstretch>0</horstretch>
+                       <verstretch>0</verstretch>
+                      </sizepolicy>
+                     </property>
+                     <property name="minimumSize">
+                      <size>
+                       <width>180</width>
+                       <height>50</height>
+                      </size>
+                     </property>
+                     <property name="maximumSize">
+                      <size>
+                       <width>180</width>
+                       <height>50</height>
+                      </size>
+                     </property>
+                     <property name="title">
+                      <string>Line 3</string>
+                     </property>
+                     <layout class="QGridLayout" name="gridLayout_3">
+                      <property name="leftMargin">
+                       <number>2</number>
+                      </property>
+                      <property name="topMargin">
+                       <number>0</number>
+                      </property>
+                      <property name="rightMargin">
+                       <number>2</number>
+                      </property>
+                      <property name="bottomMargin">
+                       <number>2</number>
+                      </property>
+                      <property name="verticalSpacing">
+                       <number>2</number>
+                      </property>
+                      <item row="1" column="2">
+                       <widget class="QComboBox" name="color_comboBox_1_3">
+                        <property name="palette">
+                         <palette>
+                          <active>
+                           <colorrole role="HighlightedText">
+                            <brush brushstyle="SolidPattern">
+                             <color alpha="255">
+                              <red>0</red>
+                              <green>0</green>
+                              <blue>0</blue>
+                             </color>
+                            </brush>
+                           </colorrole>
+                          </active>
+                          <inactive>
+                           <colorrole role="HighlightedText">
+                            <brush brushstyle="SolidPattern">
+                             <color alpha="255">
+                              <red>0</red>
+                              <green>0</green>
+                              <blue>0</blue>
+                             </color>
+                            </brush>
+                           </colorrole>
+                          </inactive>
+                          <disabled>
+                           <colorrole role="HighlightedText">
+                            <brush brushstyle="SolidPattern">
+                             <color alpha="255">
+                              <red>0</red>
+                              <green>0</green>
+                              <blue>0</blue>
+                             </color>
+                            </brush>
+                           </colorrole>
+                          </disabled>
+                         </palette>
+                        </property>
+                        <property name="font">
+                         <font>
+                          <pointsize>8</pointsize>
+                         </font>
+                        </property>
+                        <property name="styleSheet">
+                         <string notr="true"/>
+                        </property>
+                        <item>
+                         <property name="text">
+                          <string>blue</string>
+                         </property>
+                        </item>
+                        <item>
+                         <property name="text">
+                          <string>red</string>
+                         </property>
+                        </item>
+                        <item>
+                         <property name="text">
+                          <string>black</string>
+                         </property>
+                        </item>
+                        <item>
+                         <property name="text">
+                          <string>green</string>
+                         </property>
+                        </item>
+                        <item>
+                         <property name="text">
+                          <string>orange</string>
+                         </property>
+                        </item>
+                        <item>
+                         <property name="text">
+                          <string>yellow</string>
+                         </property>
+                        </item>
+                       </widget>
+                      </item>
+                      <item row="1" column="1">
+                       <widget class="QSpinBox" name="y_spinBox_1_3">
+                        <property name="minimum">
+                         <number>1</number>
+                        </property>
+                        <property name="value">
+                         <number>2</number>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="1" column="0">
+                       <widget class="QSpinBox" name="x_spinBox_1_3">
+                        <property name="minimum">
+                         <number>1</number>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="0" column="1">
+                       <widget class="QLabel" name="y_label_1_3">
+                        <property name="text">
+                         <string>y</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="0" column="0">
+                       <widget class="QLabel" name="x_label_1_3">
+                        <property name="text">
+                         <string>x</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="0" column="2">
+                       <widget class="QLabel" name="color_label_1_3">
+                        <property name="text">
+                         <string>color</string>
+                        </property>
+                       </widget>
+                      </item>
+                     </layout>
+                    </widget>
+                   </item>
+                  </layout>
+                 </widget>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </item>
+            <item>
+             <widget class="QGroupBox" name="Subplot_groupBox_2">
+              <property name="minimumSize">
+               <size>
+                <width>250</width>
+                <height>80</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>250</width>
+                <height>16777215</height>
+               </size>
+              </property>
+              <property name="title">
+               <string>Subplot 2</string>
+              </property>
+              <layout class="QHBoxLayout" name="horizontalLayout_4">
+               <property name="leftMargin">
+                <number>0</number>
+               </property>
+               <property name="topMargin">
+                <number>0</number>
+               </property>
+               <property name="rightMargin">
+                <number>0</number>
+               </property>
+               <property name="bottomMargin">
+                <number>2</number>
+               </property>
+               <item>
+                <widget class="QSpinBox" name="numberlines_spinBox_2">
+                 <property name="minimum">
+                  <number>1</number>
+                 </property>
+                 <property name="maximum">
+                  <number>3</number>
+                 </property>
+                 <property name="value">
+                  <number>3</number>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QScrollArea" name="lines_scrollArea_2">
+                 <property name="minimumSize">
+                  <size>
+                   <width>200</width>
+                   <height>60</height>
+                  </size>
+                 </property>
+                 <property name="maximumSize">
+                  <size>
+                   <width>200</width>
+                   <height>16777215</height>
+                  </size>
+                 </property>
+                 <property name="frameShadow">
+                  <enum>QFrame::Raised</enum>
+                 </property>
+                 <property name="verticalScrollBarPolicy">
+                  <enum>Qt::ScrollBarAsNeeded</enum>
+                 </property>
+                 <property name="horizontalScrollBarPolicy">
+                  <enum>Qt::ScrollBarAlwaysOff</enum>
+                 </property>
+                 <property name="widgetResizable">
+                  <bool>true</bool>
+                 </property>
+                 <widget class="QWidget" name="lines_scrollAreaWidgetContents_2">
+                  <property name="geometry">
+                   <rect>
+                    <x>0</x>
+                    <y>-23</y>
+                    <width>181</width>
+                    <height>158</height>
+                   </rect>
+                  </property>
+                  <layout class="QVBoxLayout" name="verticalLayout_4">
+                   <property name="spacing">
+                    <number>4</number>
+                   </property>
+                   <property name="leftMargin">
+                    <number>0</number>
+                   </property>
+                   <property name="topMargin">
+                    <number>0</number>
+                   </property>
+                   <property name="rightMargin">
+                    <number>0</number>
+                   </property>
+                   <property name="bottomMargin">
+                    <number>0</number>
+                   </property>
+                   <item>
+                    <widget class="QGroupBox" name="line_groupBox_2_1">
+                     <property name="sizePolicy">
+                      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                       <horstretch>0</horstretch>
+                       <verstretch>0</verstretch>
+                      </sizepolicy>
+                     </property>
+                     <property name="minimumSize">
+                      <size>
+                       <width>180</width>
+                       <height>50</height>
+                      </size>
+                     </property>
+                     <property name="maximumSize">
+                      <size>
+                       <width>180</width>
+                       <height>50</height>
+                      </size>
+                     </property>
+                     <property name="title">
+                      <string>Line 1</string>
+                     </property>
+                     <layout class="QGridLayout" name="gridLayout_4">
+                      <property name="leftMargin">
+                       <number>2</number>
+                      </property>
+                      <property name="topMargin">
+                       <number>0</number>
+                      </property>
+                      <property name="rightMargin">
+                       <number>2</number>
+                      </property>
+                      <property name="bottomMargin">
+                       <number>2</number>
+                      </property>
+                      <property name="verticalSpacing">
+                       <number>2</number>
+                      </property>
+                      <item row="1" column="2">
+                       <widget class="QComboBox" name="color_comboBox_2_1">
+                        <property name="palette">
+                         <palette>
+                          <active>
+                           <colorrole role="HighlightedText">
+                            <brush brushstyle="SolidPattern">
+                             <color alpha="255">
+                              <red>0</red>
+                              <green>0</green>
+                              <blue>0</blue>
+                             </color>
+                            </brush>
+                           </colorrole>
+                          </active>
+                          <inactive>
+                           <colorrole role="HighlightedText">
+                            <brush brushstyle="SolidPattern">
+                             <color alpha="255">
+                              <red>0</red>
+                              <green>0</green>
+                              <blue>0</blue>
+                             </color>
+                            </brush>
+                           </colorrole>
+                          </inactive>
+                          <disabled>
+                           <colorrole role="HighlightedText">
+                            <brush brushstyle="SolidPattern">
+                             <color alpha="255">
+                              <red>0</red>
+                              <green>0</green>
+                              <blue>0</blue>
+                             </color>
+                            </brush>
+                           </colorrole>
+                          </disabled>
+                         </palette>
+                        </property>
+                        <property name="font">
+                         <font>
+                          <pointsize>8</pointsize>
+                         </font>
+                        </property>
+                        <property name="styleSheet">
+                         <string notr="true"/>
+                        </property>
+                        <item>
+                         <property name="text">
+                          <string>blue</string>
+                         </property>
+                        </item>
+                        <item>
+                         <property name="text">
+                          <string>red</string>
+                         </property>
+                        </item>
+                        <item>
+                         <property name="text">
+                          <string>black</string>
+                         </property>
+                        </item>
+                        <item>
+                         <property name="text">
+                          <string>green</string>
+                         </property>
+                        </item>
+                        <item>
+                         <property name="text">
+                          <string>orange</string>
+                         </property>
+                        </item>
+                        <item>
+                         <property name="text">
+                          <string>yellow</string>
+                         </property>
+                        </item>
+                       </widget>
+                      </item>
+                      <item row="1" column="1">
+                       <widget class="QSpinBox" name="y_spinBox_2_1">
+                        <property name="minimum">
+                         <number>1</number>
+                        </property>
+                        <property name="value">
+                         <number>2</number>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="1" column="0">
+                       <widget class="QSpinBox" name="x_spinBox_2_1">
+                        <property name="minimum">
+                         <number>1</number>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="0" column="1">
+                       <widget class="QLabel" name="y_label_2_1">
+                        <property name="text">
+                         <string>y</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="0" column="0">
+                       <widget class="QLabel" name="x_label_2_1">
+                        <property name="text">
+                         <string>x</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="0" column="2">
+                       <widget class="QLabel" name="color_label_2_1">
+                        <property name="text">
+                         <string>color</string>
+                        </property>
+                       </widget>
+                      </item>
+                     </layout>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QGroupBox" name="line_groupBox_2_2">
+                     <property name="sizePolicy">
+                      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                       <horstretch>0</horstretch>
+                       <verstretch>0</verstretch>
+                      </sizepolicy>
+                     </property>
+                     <property name="minimumSize">
+                      <size>
+                       <width>180</width>
+                       <height>50</height>
+                      </size>
+                     </property>
+                     <property name="maximumSize">
+                      <size>
+                       <width>180</width>
+                       <height>50</height>
+                      </size>
+                     </property>
+                     <property name="title">
+                      <string>Line 2</string>
+                     </property>
+                     <layout class="QGridLayout" name="gridLayout_5">
+                      <property name="leftMargin">
+                       <number>2</number>
+                      </property>
+                      <property name="topMargin">
+                       <number>0</number>
+                      </property>
+                      <property name="rightMargin">
+                       <number>2</number>
+                      </property>
+                      <property name="bottomMargin">
+                       <number>2</number>
+                      </property>
+                      <property name="verticalSpacing">
+                       <number>2</number>
+                      </property>
+                      <item row="1" column="2">
+                       <widget class="QComboBox" name="color_comboBox_2_2">
+                        <property name="palette">
+                         <palette>
+                          <active>
+                           <colorrole role="HighlightedText">
+                            <brush brushstyle="SolidPattern">
+                             <color alpha="255">
+                              <red>0</red>
+                              <green>0</green>
+                              <blue>0</blue>
+                             </color>
+                            </brush>
+                           </colorrole>
+                          </active>
+                          <inactive>
+                           <colorrole role="HighlightedText">
+                            <brush brushstyle="SolidPattern">
+                             <color alpha="255">
+                              <red>0</red>
+                              <green>0</green>
+                              <blue>0</blue>
+                             </color>
+                            </brush>
+                           </colorrole>
+                          </inactive>
+                          <disabled>
+                           <colorrole role="HighlightedText">
+                            <brush brushstyle="SolidPattern">
+                             <color alpha="255">
+                              <red>0</red>
+                              <green>0</green>
+                              <blue>0</blue>
+                             </color>
+                            </brush>
+                           </colorrole>
+                          </disabled>
+                         </palette>
+                        </property>
+                        <property name="font">
+                         <font>
+                          <pointsize>8</pointsize>
+                         </font>
+                        </property>
+                        <property name="styleSheet">
+                         <string notr="true"/>
+                        </property>
+                        <item>
+                         <property name="text">
+                          <string>blue</string>
+                         </property>
+                        </item>
+                        <item>
+                         <property name="text">
+                          <string>red</string>
+                         </property>
+                        </item>
+                        <item>
+                         <property name="text">
+                          <string>black</string>
+                         </property>
+                        </item>
+                        <item>
+                         <property name="text">
+                          <string>green</string>
+                         </property>
+                        </item>
+                        <item>
+                         <property name="text">
+                          <string>orange</string>
+                         </property>
+                        </item>
+                        <item>
+                         <property name="text">
+                          <string>yellow</string>
+                         </property>
+                        </item>
+                       </widget>
+                      </item>
+                      <item row="1" column="1">
+                       <widget class="QSpinBox" name="y_spinBox_2_2">
+                        <property name="minimum">
+                         <number>1</number>
+                        </property>
+                        <property name="value">
+                         <number>2</number>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="1" column="0">
+                       <widget class="QSpinBox" name="x_spinBox_2_2">
+                        <property name="minimum">
+                         <number>1</number>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="0" column="1">
+                       <widget class="QLabel" name="y_label_2_2">
+                        <property name="text">
+                         <string>y</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="0" column="0">
+                       <widget class="QLabel" name="x_label_2_2">
+                        <property name="text">
+                         <string>x</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="0" column="2">
+                       <widget class="QLabel" name="color_label_2_2">
+                        <property name="text">
+                         <string>color</string>
+                        </property>
+                       </widget>
+                      </item>
+                     </layout>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QGroupBox" name="line_groupBox_2_3">
+                     <property name="sizePolicy">
+                      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                       <horstretch>0</horstretch>
+                       <verstretch>0</verstretch>
+                      </sizepolicy>
+                     </property>
+                     <property name="minimumSize">
+                      <size>
+                       <width>180</width>
+                       <height>50</height>
+                      </size>
+                     </property>
+                     <property name="maximumSize">
+                      <size>
+                       <width>180</width>
+                       <height>50</height>
+                      </size>
+                     </property>
+                     <property name="title">
+                      <string>Line 3</string>
+                     </property>
+                     <layout class="QGridLayout" name="gridLayout_6">
+                      <property name="leftMargin">
+                       <number>2</number>
+                      </property>
+                      <property name="topMargin">
+                       <number>0</number>
+                      </property>
+                      <property name="rightMargin">
+                       <number>2</number>
+                      </property>
+                      <property name="bottomMargin">
+                       <number>2</number>
+                      </property>
+                      <property name="verticalSpacing">
+                       <number>2</number>
+                      </property>
+                      <item row="1" column="2">
+                       <widget class="QComboBox" name="color_comboBox_2_3">
+                        <property name="palette">
+                         <palette>
+                          <active>
+                           <colorrole role="HighlightedText">
+                            <brush brushstyle="SolidPattern">
+                             <color alpha="255">
+                              <red>0</red>
+                              <green>0</green>
+                              <blue>0</blue>
+                             </color>
+                            </brush>
+                           </colorrole>
+                          </active>
+                          <inactive>
+                           <colorrole role="HighlightedText">
+                            <brush brushstyle="SolidPattern">
+                             <color alpha="255">
+                              <red>0</red>
+                              <green>0</green>
+                              <blue>0</blue>
+                             </color>
+                            </brush>
+                           </colorrole>
+                          </inactive>
+                          <disabled>
+                           <colorrole role="HighlightedText">
+                            <brush brushstyle="SolidPattern">
+                             <color alpha="255">
+                              <red>0</red>
+                              <green>0</green>
+                              <blue>0</blue>
+                             </color>
+                            </brush>
+                           </colorrole>
+                          </disabled>
+                         </palette>
+                        </property>
+                        <property name="font">
+                         <font>
+                          <pointsize>8</pointsize>
+                         </font>
+                        </property>
+                        <property name="styleSheet">
+                         <string notr="true"/>
+                        </property>
+                        <item>
+                         <property name="text">
+                          <string>blue</string>
+                         </property>
+                        </item>
+                        <item>
+                         <property name="text">
+                          <string>red</string>
+                         </property>
+                        </item>
+                        <item>
+                         <property name="text">
+                          <string>black</string>
+                         </property>
+                        </item>
+                        <item>
+                         <property name="text">
+                          <string>green</string>
+                         </property>
+                        </item>
+                        <item>
+                         <property name="text">
+                          <string>orange</string>
+                         </property>
+                        </item>
+                        <item>
+                         <property name="text">
+                          <string>yellow</string>
+                         </property>
+                        </item>
+                       </widget>
+                      </item>
+                      <item row="1" column="1">
+                       <widget class="QSpinBox" name="y_spinBox_2_3">
+                        <property name="minimum">
+                         <number>1</number>
+                        </property>
+                        <property name="value">
+                         <number>2</number>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="1" column="0">
+                       <widget class="QSpinBox" name="x_spinBox_2_3">
+                        <property name="minimum">
+                         <number>1</number>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="0" column="1">
+                       <widget class="QLabel" name="y_label_2_3">
+                        <property name="text">
+                         <string>y</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="0" column="0">
+                       <widget class="QLabel" name="x_label_2_3">
+                        <property name="text">
+                         <string>x</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="0" column="2">
+                       <widget class="QLabel" name="color_label_2_3">
+                        <property name="text">
+                         <string>color</string>
+                        </property>
+                       </widget>
+                      </item>
+                     </layout>
+                    </widget>
+                   </item>
+                  </layout>
+                 </widget>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </item>
+            <item>
+             <widget class="QGroupBox" name="Subplot_groupBox_3">
+              <property name="minimumSize">
+               <size>
+                <width>250</width>
+                <height>80</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>250</width>
+                <height>16777215</height>
+               </size>
+              </property>
+              <property name="title">
+               <string>Subplot 3</string>
+              </property>
+              <layout class="QHBoxLayout" name="horizontalLayout_5">
+               <property name="leftMargin">
+                <number>0</number>
+               </property>
+               <property name="topMargin">
+                <number>0</number>
+               </property>
+               <property name="rightMargin">
+                <number>0</number>
+               </property>
+               <property name="bottomMargin">
+                <number>2</number>
+               </property>
+               <item>
+                <widget class="QSpinBox" name="numberlines_spinBox_3">
+                 <property name="minimum">
+                  <number>1</number>
+                 </property>
+                 <property name="maximum">
+                  <number>3</number>
+                 </property>
+                 <property name="value">
+                  <number>3</number>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QScrollArea" name="lines_scrollArea_3">
+                 <property name="minimumSize">
+                  <size>
+                   <width>200</width>
+                   <height>60</height>
+                  </size>
+                 </property>
+                 <property name="maximumSize">
+                  <size>
+                   <width>200</width>
+                   <height>16777215</height>
+                  </size>
+                 </property>
+                 <property name="frameShadow">
+                  <enum>QFrame::Raised</enum>
+                 </property>
+                 <property name="verticalScrollBarPolicy">
+                  <enum>Qt::ScrollBarAsNeeded</enum>
+                 </property>
+                 <property name="horizontalScrollBarPolicy">
+                  <enum>Qt::ScrollBarAlwaysOff</enum>
+                 </property>
+                 <property name="widgetResizable">
+                  <bool>true</bool>
+                 </property>
+                 <widget class="QWidget" name="lines_scrollAreaWidgetContents_3">
+                  <property name="geometry">
+                   <rect>
+                    <x>0</x>
+                    <y>-23</y>
+                    <width>181</width>
+                    <height>158</height>
+                   </rect>
+                  </property>
+                  <layout class="QVBoxLayout" name="verticalLayout_5">
+                   <property name="spacing">
+                    <number>4</number>
+                   </property>
+                   <property name="leftMargin">
+                    <number>0</number>
+                   </property>
+                   <property name="topMargin">
+                    <number>0</number>
+                   </property>
+                   <property name="rightMargin">
+                    <number>0</number>
+                   </property>
+                   <property name="bottomMargin">
+                    <number>0</number>
+                   </property>
+                   <item>
+                    <widget class="QGroupBox" name="line_groupBox_3_1">
+                     <property name="sizePolicy">
+                      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                       <horstretch>0</horstretch>
+                       <verstretch>0</verstretch>
+                      </sizepolicy>
+                     </property>
+                     <property name="minimumSize">
+                      <size>
+                       <width>180</width>
+                       <height>50</height>
+                      </size>
+                     </property>
+                     <property name="maximumSize">
+                      <size>
+                       <width>180</width>
+                       <height>50</height>
+                      </size>
+                     </property>
+                     <property name="title">
+                      <string>Line 1</string>
+                     </property>
+                     <layout class="QGridLayout" name="gridLayout_7">
+                      <property name="leftMargin">
+                       <number>2</number>
+                      </property>
+                      <property name="topMargin">
+                       <number>0</number>
+                      </property>
+                      <property name="rightMargin">
+                       <number>2</number>
+                      </property>
+                      <property name="bottomMargin">
+                       <number>2</number>
+                      </property>
+                      <property name="verticalSpacing">
+                       <number>2</number>
+                      </property>
+                      <item row="1" column="2">
+                       <widget class="QComboBox" name="color_comboBox_3_1">
+                        <property name="palette">
+                         <palette>
+                          <active>
+                           <colorrole role="HighlightedText">
+                            <brush brushstyle="SolidPattern">
+                             <color alpha="255">
+                              <red>0</red>
+                              <green>0</green>
+                              <blue>0</blue>
+                             </color>
+                            </brush>
+                           </colorrole>
+                          </active>
+                          <inactive>
+                           <colorrole role="HighlightedText">
+                            <brush brushstyle="SolidPattern">
+                             <color alpha="255">
+                              <red>0</red>
+                              <green>0</green>
+                              <blue>0</blue>
+                             </color>
+                            </brush>
+                           </colorrole>
+                          </inactive>
+                          <disabled>
+                           <colorrole role="HighlightedText">
+                            <brush brushstyle="SolidPattern">
+                             <color alpha="255">
+                              <red>0</red>
+                              <green>0</green>
+                              <blue>0</blue>
+                             </color>
+                            </brush>
+                           </colorrole>
+                          </disabled>
+                         </palette>
+                        </property>
+                        <property name="font">
+                         <font>
+                          <pointsize>8</pointsize>
+                         </font>
+                        </property>
+                        <property name="styleSheet">
+                         <string notr="true"/>
+                        </property>
+                        <item>
+                         <property name="text">
+                          <string>blue</string>
+                         </property>
+                        </item>
+                        <item>
+                         <property name="text">
+                          <string>red</string>
+                         </property>
+                        </item>
+                        <item>
+                         <property name="text">
+                          <string>black</string>
+                         </property>
+                        </item>
+                        <item>
+                         <property name="text">
+                          <string>green</string>
+                         </property>
+                        </item>
+                        <item>
+                         <property name="text">
+                          <string>orange</string>
+                         </property>
+                        </item>
+                        <item>
+                         <property name="text">
+                          <string>yellow</string>
+                         </property>
+                        </item>
+                       </widget>
+                      </item>
+                      <item row="1" column="1">
+                       <widget class="QSpinBox" name="y_spinBox_3_1">
+                        <property name="minimum">
+                         <number>1</number>
+                        </property>
+                        <property name="value">
+                         <number>2</number>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="1" column="0">
+                       <widget class="QSpinBox" name="x_spinBox_3_1">
+                        <property name="minimum">
+                         <number>1</number>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="0" column="1">
+                       <widget class="QLabel" name="y_label_3_1">
+                        <property name="text">
+                         <string>y</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="0" column="0">
+                       <widget class="QLabel" name="x_label_3_1">
+                        <property name="text">
+                         <string>x</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="0" column="2">
+                       <widget class="QLabel" name="color_label_3_1">
+                        <property name="text">
+                         <string>color</string>
+                        </property>
+                       </widget>
+                      </item>
+                     </layout>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QGroupBox" name="line_groupBox_3_2">
+                     <property name="sizePolicy">
+                      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                       <horstretch>0</horstretch>
+                       <verstretch>0</verstretch>
+                      </sizepolicy>
+                     </property>
+                     <property name="minimumSize">
+                      <size>
+                       <width>180</width>
+                       <height>50</height>
+                      </size>
+                     </property>
+                     <property name="maximumSize">
+                      <size>
+                       <width>180</width>
+                       <height>50</height>
+                      </size>
+                     </property>
+                     <property name="title">
+                      <string>Line 2</string>
+                     </property>
+                     <layout class="QGridLayout" name="gridLayout_8">
+                      <property name="leftMargin">
+                       <number>2</number>
+                      </property>
+                      <property name="topMargin">
+                       <number>0</number>
+                      </property>
+                      <property name="rightMargin">
+                       <number>2</number>
+                      </property>
+                      <property name="bottomMargin">
+                       <number>2</number>
+                      </property>
+                      <property name="verticalSpacing">
+                       <number>2</number>
+                      </property>
+                      <item row="1" column="2">
+                       <widget class="QComboBox" name="color_comboBox_3_2">
+                        <property name="palette">
+                         <palette>
+                          <active>
+                           <colorrole role="HighlightedText">
+                            <brush brushstyle="SolidPattern">
+                             <color alpha="255">
+                              <red>0</red>
+                              <green>0</green>
+                              <blue>0</blue>
+                             </color>
+                            </brush>
+                           </colorrole>
+                          </active>
+                          <inactive>
+                           <colorrole role="HighlightedText">
+                            <brush brushstyle="SolidPattern">
+                             <color alpha="255">
+                              <red>0</red>
+                              <green>0</green>
+                              <blue>0</blue>
+                             </color>
+                            </brush>
+                           </colorrole>
+                          </inactive>
+                          <disabled>
+                           <colorrole role="HighlightedText">
+                            <brush brushstyle="SolidPattern">
+                             <color alpha="255">
+                              <red>0</red>
+                              <green>0</green>
+                              <blue>0</blue>
+                             </color>
+                            </brush>
+                           </colorrole>
+                          </disabled>
+                         </palette>
+                        </property>
+                        <property name="font">
+                         <font>
+                          <pointsize>8</pointsize>
+                         </font>
+                        </property>
+                        <property name="styleSheet">
+                         <string notr="true"/>
+                        </property>
+                        <item>
+                         <property name="text">
+                          <string>blue</string>
+                         </property>
+                        </item>
+                        <item>
+                         <property name="text">
+                          <string>red</string>
+                         </property>
+                        </item>
+                        <item>
+                         <property name="text">
+                          <string>black</string>
+                         </property>
+                        </item>
+                        <item>
+                         <property name="text">
+                          <string>green</string>
+                         </property>
+                        </item>
+                        <item>
+                         <property name="text">
+                          <string>orange</string>
+                         </property>
+                        </item>
+                        <item>
+                         <property name="text">
+                          <string>yellow</string>
+                         </property>
+                        </item>
+                       </widget>
+                      </item>
+                      <item row="1" column="1">
+                       <widget class="QSpinBox" name="y_spinBox_3_2">
+                        <property name="minimum">
+                         <number>1</number>
+                        </property>
+                        <property name="value">
+                         <number>2</number>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="1" column="0">
+                       <widget class="QSpinBox" name="x_spinBox_3_2">
+                        <property name="minimum">
+                         <number>1</number>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="0" column="1">
+                       <widget class="QLabel" name="y_label_3_2">
+                        <property name="text">
+                         <string>y</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="0" column="0">
+                       <widget class="QLabel" name="x_label_3_2">
+                        <property name="text">
+                         <string>x</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="0" column="2">
+                       <widget class="QLabel" name="color_label_3_2">
+                        <property name="text">
+                         <string>color</string>
+                        </property>
+                       </widget>
+                      </item>
+                     </layout>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QGroupBox" name="line_groupBox_3_3">
+                     <property name="sizePolicy">
+                      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                       <horstretch>0</horstretch>
+                       <verstretch>0</verstretch>
+                      </sizepolicy>
+                     </property>
+                     <property name="minimumSize">
+                      <size>
+                       <width>180</width>
+                       <height>50</height>
+                      </size>
+                     </property>
+                     <property name="maximumSize">
+                      <size>
+                       <width>180</width>
+                       <height>50</height>
+                      </size>
+                     </property>
+                     <property name="title">
+                      <string>Line 3</string>
+                     </property>
+                     <layout class="QGridLayout" name="gridLayout_9">
+                      <property name="leftMargin">
+                       <number>2</number>
+                      </property>
+                      <property name="topMargin">
+                       <number>0</number>
+                      </property>
+                      <property name="rightMargin">
+                       <number>2</number>
+                      </property>
+                      <property name="bottomMargin">
+                       <number>2</number>
+                      </property>
+                      <property name="verticalSpacing">
+                       <number>2</number>
+                      </property>
+                      <item row="1" column="2">
+                       <widget class="QComboBox" name="color_comboBox_3_3">
+                        <property name="palette">
+                         <palette>
+                          <active>
+                           <colorrole role="HighlightedText">
+                            <brush brushstyle="SolidPattern">
+                             <color alpha="255">
+                              <red>0</red>
+                              <green>0</green>
+                              <blue>0</blue>
+                             </color>
+                            </brush>
+                           </colorrole>
+                          </active>
+                          <inactive>
+                           <colorrole role="HighlightedText">
+                            <brush brushstyle="SolidPattern">
+                             <color alpha="255">
+                              <red>0</red>
+                              <green>0</green>
+                              <blue>0</blue>
+                             </color>
+                            </brush>
+                           </colorrole>
+                          </inactive>
+                          <disabled>
+                           <colorrole role="HighlightedText">
+                            <brush brushstyle="SolidPattern">
+                             <color alpha="255">
+                              <red>0</red>
+                              <green>0</green>
+                              <blue>0</blue>
+                             </color>
+                            </brush>
+                           </colorrole>
+                          </disabled>
+                         </palette>
+                        </property>
+                        <property name="font">
+                         <font>
+                          <pointsize>8</pointsize>
+                         </font>
+                        </property>
+                        <property name="styleSheet">
+                         <string notr="true"/>
+                        </property>
+                        <item>
+                         <property name="text">
+                          <string>blue</string>
+                         </property>
+                        </item>
+                        <item>
+                         <property name="text">
+                          <string>red</string>
+                         </property>
+                        </item>
+                        <item>
+                         <property name="text">
+                          <string>black</string>
+                         </property>
+                        </item>
+                        <item>
+                         <property name="text">
+                          <string>green</string>
+                         </property>
+                        </item>
+                        <item>
+                         <property name="text">
+                          <string>orange</string>
+                         </property>
+                        </item>
+                        <item>
+                         <property name="text">
+                          <string>yellow</string>
+                         </property>
+                        </item>
+                       </widget>
+                      </item>
+                      <item row="1" column="1">
+                       <widget class="QSpinBox" name="y_spinBox_3_3">
+                        <property name="minimum">
+                         <number>1</number>
+                        </property>
+                        <property name="value">
+                         <number>2</number>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="1" column="0">
+                       <widget class="QSpinBox" name="x_spinBox_3_3">
+                        <property name="minimum">
+                         <number>1</number>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="0" column="1">
+                       <widget class="QLabel" name="y_label_3_3">
+                        <property name="text">
+                         <string>y</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="0" column="0">
+                       <widget class="QLabel" name="x_label_3_3">
+                        <property name="text">
+                         <string>x</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="0" column="2">
+                       <widget class="QLabel" name="color_label_3_3">
+                        <property name="text">
+                         <string>color</string>
+                        </property>
+                       </widget>
+                      </item>
+                     </layout>
+                    </widget>
+                   </item>
+                  </layout>
+                 </widget>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QSplitter" name="splitter">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <widget class="QCustomPlot" name="Plot" native="true">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+     </widget>
+     <widget class="QScrollBar" name="horizontalScrollBar">
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>17</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>17</height>
+       </size>
+      </property>
+      <property name="singleStep">
+       <number>1</number>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+     <widget class="QTextBrowser" name="Serialincomingdata_textBrowser">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Minimum">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>300</width>
+        <height>90</height>
+       </size>
+      </property>
+      <property name="palette">
+       <palette>
+        <active>
+         <colorrole role="HighlightedText">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+           </color>
+          </brush>
+         </colorrole>
+        </active>
+        <inactive>
+         <colorrole role="HighlightedText">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+           </color>
+          </brush>
+         </colorrole>
+        </inactive>
+        <disabled>
+         <colorrole role="HighlightedText">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+           </color>
+          </brush>
+         </colorrole>
+        </disabled>
+       </palette>
+      </property>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>QCustomPlot</class>
+   <extends>QWidget</extends>
+   <header>../../../../../../qcustomplot/qcustomplot.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
