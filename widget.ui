@@ -336,8 +336,7 @@
                <item>
                 <widget class="QSpinBox" name="numberlines_spinBox_1">
                  <property name="styleSheet">
-                  <string notr="true">
-</string>
+                  <string notr="true"/>
                  </property>
                  <property name="minimum">
                   <number>1</number>
@@ -380,9 +379,9 @@
                   <property name="geometry">
                    <rect>
                     <x>0</x>
-                    <y>-97</y>
+                    <y>0</y>
                     <width>181</width>
-                    <height>158</height>
+                    <height>188</height>
                    </rect>
                   </property>
                   <layout class="QVBoxLayout" name="verticalLayout_3">
@@ -412,13 +411,13 @@
                      <property name="minimumSize">
                       <size>
                        <width>180</width>
-                       <height>50</height>
+                       <height>60</height>
                       </size>
                      </property>
                      <property name="maximumSize">
                       <size>
                        <width>180</width>
-                       <height>50</height>
+                       <height>60</height>
                       </size>
                      </property>
                      <property name="title">
@@ -571,13 +570,13 @@
                      <property name="minimumSize">
                       <size>
                        <width>180</width>
-                       <height>50</height>
+                       <height>60</height>
                       </size>
                      </property>
                      <property name="maximumSize">
                       <size>
                        <width>180</width>
-                       <height>50</height>
+                       <height>60</height>
                       </size>
                      </property>
                      <property name="title">
@@ -730,13 +729,13 @@
                      <property name="minimumSize">
                       <size>
                        <width>180</width>
-                       <height>50</height>
+                       <height>60</height>
                       </size>
                      </property>
                      <property name="maximumSize">
                       <size>
                        <width>180</width>
-                       <height>50</height>
+                       <height>60</height>
                       </size>
                      </property>
                      <property name="title">
@@ -958,9 +957,9 @@
                   <property name="geometry">
                    <rect>
                     <x>0</x>
-                    <y>-23</y>
+                    <y>0</y>
                     <width>181</width>
-                    <height>158</height>
+                    <height>188</height>
                    </rect>
                   </property>
                   <layout class="QVBoxLayout" name="verticalLayout_4">
@@ -990,13 +989,13 @@
                      <property name="minimumSize">
                       <size>
                        <width>180</width>
-                       <height>50</height>
+                       <height>60</height>
                       </size>
                      </property>
                      <property name="maximumSize">
                       <size>
                        <width>180</width>
-                       <height>50</height>
+                       <height>60</height>
                       </size>
                      </property>
                      <property name="title">
@@ -1149,13 +1148,13 @@
                      <property name="minimumSize">
                       <size>
                        <width>180</width>
-                       <height>50</height>
+                       <height>60</height>
                       </size>
                      </property>
                      <property name="maximumSize">
                       <size>
                        <width>180</width>
-                       <height>50</height>
+                       <height>60</height>
                       </size>
                      </property>
                      <property name="title">
@@ -1308,13 +1307,13 @@
                      <property name="minimumSize">
                       <size>
                        <width>180</width>
-                       <height>50</height>
+                       <height>60</height>
                       </size>
                      </property>
                      <property name="maximumSize">
                       <size>
                        <width>180</width>
-                       <height>50</height>
+                       <height>60</height>
                       </size>
                      </property>
                      <property name="title">
@@ -1536,9 +1535,9 @@
                   <property name="geometry">
                    <rect>
                     <x>0</x>
-                    <y>-23</y>
+                    <y>0</y>
                     <width>181</width>
-                    <height>158</height>
+                    <height>188</height>
                    </rect>
                   </property>
                   <layout class="QVBoxLayout" name="verticalLayout_5">
@@ -1568,13 +1567,13 @@
                      <property name="minimumSize">
                       <size>
                        <width>180</width>
-                       <height>50</height>
+                       <height>60</height>
                       </size>
                      </property>
                      <property name="maximumSize">
                       <size>
                        <width>180</width>
-                       <height>50</height>
+                       <height>60</height>
                       </size>
                      </property>
                      <property name="title">
@@ -1727,13 +1726,13 @@
                      <property name="minimumSize">
                       <size>
                        <width>180</width>
-                       <height>50</height>
+                       <height>60</height>
                       </size>
                      </property>
                      <property name="maximumSize">
                       <size>
                        <width>180</width>
-                       <height>50</height>
+                       <height>60</height>
                       </size>
                      </property>
                      <property name="title">
@@ -1886,13 +1885,13 @@
                      <property name="minimumSize">
                       <size>
                        <width>180</width>
-                       <height>50</height>
+                       <height>60</height>
                       </size>
                      </property>
                      <property name="maximumSize">
                       <size>
                        <width>180</width>
-                       <height>50</height>
+                       <height>60</height>
                       </size>
                      </property>
                      <property name="title">
